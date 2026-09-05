@@ -1,7 +1,7 @@
 # NOD-SBC-001 — Electrical Design Increment
 
 **Revision:** Rev A implementation scaffold  
-**Status:** OPEN — engineering selection and detailed design pending  
+**Status:** OPEN — ED-01 recommended; detailed electrical selection and closure pending  
 **Parent baseline:** NOD-SBC-001 Reference Design Rev A
 
 ## Purpose
@@ -23,7 +23,7 @@ Evaluate embedded compute platforms against:
 - industrial/defense environmental suitability
 - software enablement and BSP maturity
 
-**Selection status:** OPEN.
+**Selection status:** RECOMMENDED — Variscite DART-MX95 based on NXP i.MX95. Production part-number freeze remains pending validation. See `docs/NOD-SBC-001-ED01-CPU-SOM-TRADE-STUDY.md`.
 
 ## ED-02 FPGA / MCU
 
@@ -207,7 +207,7 @@ The implementation baseline shall support verification of:
 
 | Gate | Description | Status |
 |---|---|---|
-| ED-01 | CPU/SoM trade | OPEN |
+| ED-01 | CPU/SoM trade | **RECOMMENDED — DART-MX95** |
 | ED-02 | FPGA/MCU trade | OPEN |
 | ED-03 | Power budget | OPEN |
 | ED-04 | Thermal budget | OPEN |
